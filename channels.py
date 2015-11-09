@@ -244,7 +244,7 @@ class BBCNEWS(BaseChannel):
     def action_list_streams(self):
         data = {}
         data.update(self.args)
-	data.update({'action': 'play_stream', 'Title': 'BBC World', 'stream_url': 'http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_,264,528,828,.m3u8'})
+	data.update({'action': 'play_stream', 'Title': 'BBC World', 'stream_url': 'http://c004.p105.edgesuite.net/i/c004/bbcworld_1@97498/master.m3u8'})
 	self.plugin.add_list_item(data, is_folder=False)
 	data.update({'action': 'play_stream', 'Title': 'BBC Arabic', 'stream_url': 'http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/bbc_ar/ls_satlink/b_,264,528,828,.m3u8'})
         self.plugin.add_list_item(data, is_folder=False)
