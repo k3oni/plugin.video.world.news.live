@@ -560,3 +560,15 @@ class Digi24(BaseChannel):
 
     def action_play_stream(self):
         self.plugin.set_stream_url('http://82.76.249.77:80/digi24edge/digi24hdhqhls/index.m3u8')
+#########
+## TWC ##
+#########
+
+class Digi24(BaseChannel):
+    playable = True
+    short_name = 'twc_us'
+    long_name = 'The Weather Channels US'
+    default_action = 'play_stream' 
+
+    def action_play_stream(self):
+        self.plugin.set_stream_url('http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8')

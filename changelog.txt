@@ -1,3 +1,5 @@
+1.5.1 - Add The Weather Channel US
+
 1.5 - Fix common issues
 
 1.4.0.1 - Fix BBC World News
