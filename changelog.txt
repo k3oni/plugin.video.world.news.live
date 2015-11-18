@@ -1,3 +1,5 @@
+1.5 - Fix common issues
+
 1.4.0.1 - Fix BBC World News
 
 1.4 - Fix RT, Sky News, NDTV, Arirang
