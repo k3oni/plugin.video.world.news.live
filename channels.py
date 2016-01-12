@@ -157,7 +157,7 @@ class CNBC(BaseChannel):
 ## CBSN ##
 ##########
 
-class CBSN(BaseChannel):
+class UT(BaseChannel):
     playable = True
     short_name = 'cbsn'
     long_name = 'CBS News'
