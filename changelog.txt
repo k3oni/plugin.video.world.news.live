@@ -1,3 +1,5 @@
+1.5.1.2 - Fix CBS class, BBC World stream
+
 1.5.1.1 - Fix Antena3 icon
 
 1.5.1 - Add The Weather Channel US

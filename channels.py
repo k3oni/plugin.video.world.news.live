@@ -129,7 +129,7 @@ class BBCNEWS(BaseChannel):
     def action_list_streams(self):
         data = {}
         data.update(self.args)
-	data.update({'action': 'play_stream', 'Title': 'BBC World', 'stream_url': 'http://c004.p105.edgesuite.net/i/c004/bbcworld_1@97498/master.m3u8'})
+	data.update({'action': 'play_stream', 'Title': 'BBC World', 'stream_url': 'http://origin2.voronezh.ertelecom.ru/content/private/s147213/d3720264/r971567sd2000000/4dc056d69c5791101b1c85419bce537a665e6eb2/track_2_1200/playlist.m3u8'})
 	self.plugin.add_list_item(data, is_folder=False)
 	data.update({'action': 'play_stream', 'Title': 'BBC Arabic', 'stream_url': 'http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/bbc_ar/ls_satlink/b_,264,528,828,.m3u8'})
         self.plugin.add_list_item(data, is_folder=False)
@@ -157,7 +157,7 @@ class CNBC(BaseChannel):
 ## CBSN ##
 ##########
 
-class UT(BaseChannel):
+class CBSN(BaseChannel):
     playable = True
     short_name = 'cbsn'
     long_name = 'CBS News'
