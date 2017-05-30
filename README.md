@@ -1,4 +1,4 @@
-World News Live add-on for XBMC
+World News Live add-on for XBMC - This Addon is not supported anymore
 ==========================================
 
 This plugin provides streams of various news channels and allows you to watch them in XBMC.
